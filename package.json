@@ -1,8 +1,26 @@
+{
+  "name": "hello-world-vite-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  “homepage” : "https://nanichowdary.github.io/Create-Deploy-Vite-React-App",
 "scripts": {
+  "lint": "eslint .",
   "dev": "vite",
   "build": "vite build",
-  "lint": "oxlint",
   "preview": "vite preview",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
+}
+
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "vite": "^8.2.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "oxlint": "^1.28.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
 }
